@@ -1,0 +1,112 @@
+/* Body Styles */
+body {
+    background-color: #d3d3d3;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  h1 {
+    color: #8b0000;
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 1px 2px #000000;
+  }
+  
+  h2 {
+    color: #8b0000;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #000000;
+  }
+  
+  /* Link Styles */
+  a {
+    color: #8b0000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  /* Background Styles */
+  .background-image {
+    background-image: url('background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  /* Container Styles */
+  .container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #000000;
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 30px;
+  }
+  
+  /* Button Styles */
+  .button {
+    background-color: #8b0000;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-shadow: 1px 1px #000000;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #ff0000;
+    box-shadow: 1px 1px 3px #000000;
+  }
+  .red {
+    color: #8b0000;
+  }
+  
+  /* Input Styles */
+  input[type="text"], input[type="email"], input[type="password"], select, textarea {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #000000;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    background-color: #8b0000;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-shadow: 1px 1px #000000;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ff0000;
+    box-shadow: 1px 1px 3px #000000;
+  }
+  
