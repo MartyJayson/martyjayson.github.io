@@ -1,0 +1,55 @@
+/* main background */
+body {
+    background-color: #1a1a1a;
+}
+
+/* container for sidebar */
+.sidebar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 15%;
+    min-width: 200px;
+    /* adjust this value to fit your design */
+    background-color: #262626;
+}
+
+/* header of sidebar */
+.sidebar-header {
+    background-color: #333333;
+    padding: 10px;
+}
+
+/* header text */
+.sidebar-header h1 {
+    color: #ff9933;
+    font-size: 28px;
+    margin: 0;
+}
+
+/* navigation links */
+.sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* navigation links on hover */
+.sidebar-nav ul li:hover {
+    background-color: #333333;
+}
+
+/* navigation link text */
+.sidebar-nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* navigation link text on hover */
+.sidebar-nav ul li a:hover {
+    color: #ff9933;
+}

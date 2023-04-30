@@ -1,37 +1,26 @@
-/* Body Styles */
-body {
-    background-color: #d3d3d3;
-    font-family: 'Arial', sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Header Styles */
+/* Header Styles */
   h1 {
     color: #8b0000;
     font-size: 48px;
     margin-bottom: 30px;
     text-align: center;
-    text-shadow: 1px 2px #000000;
   }
   
   h2 {
     color: #8b0000;
     font-size: 32px;
     margin-bottom: 20px;
-    text-shadow: 2px 2px #000000;
   }
   
   /* Link Styles */
   a {
-    color: #8b0000;
     text-decoration: none;
   }
-  
+  a p:hover{
+    text-decoration: none;
+  }
   a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   
   
@@ -50,7 +39,7 @@ body {
   }
   
   /* Container Styles */
-  .container {
+  .ancesteries-container {
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 2px 2px 5px #000000;
@@ -109,4 +98,46 @@ body {
     background-color: #ff0000;
     box-shadow: 1px 1px 3px #000000;
   }
+
+ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+li {
+display: block;
+width: 100%;
+margin-bottom: 20px;
+}
+
+.card {
+background-color: #fff;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+padding: 20px;
+text-align: center;
+transition: all 0.2s ease-in-out;
+width: 250px;
+margin-right: 20px;
+display: inline-block;
+vertical-align: top;
+}
+
+.card:hover {
+box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+transform: scale(1.05);
+}
+
+.card img {
+border-radius: 50%;
+max-width: 150px;
+}
+
+.card h3 {
+color: #444;
+font-size: 1.2em;
+margin-top: 10px;
+}
   
