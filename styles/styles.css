@@ -41,6 +41,7 @@
   /* Container Styles */
   .container {
     margin-left: 13em;
+    padding-left: 13em;
 }
   .ancesteries-container {
     background-color: #ffffff;
