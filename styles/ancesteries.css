@@ -40,5 +40,5 @@
     /* Убираем подчеркивание у ссылок */
     .card a {
         text-decoration: none;
+        color: black;
     }
-    
