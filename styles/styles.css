@@ -39,6 +39,9 @@
   }
   
   /* Container Styles */
+  .container {
+    margin-left: 13em;
+}
   .ancesteries-container {
     background-color: #ffffff;
     border-radius: 5px;
