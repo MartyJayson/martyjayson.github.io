@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Магия</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="shortcut icon" href="daemon-skull.ico" type="image/x-icon">
+</head>
+<style>
+    .table {
+        display: table;
+        width: 50%;
+        margin-left: 12em;
+        border-collapse: collapse;
+    }
+
+    .thead {
+        display: table-header-group;
+    }
+
+    .tbody {
+        display: table-row-group;
+    }
+
+    .tr {
+        display: table-row;
+    }
+
+    .th {
+        background-color: #333;
+        color: white;
+        font-size: larger;
+    }
+
+    .th,
+    .td {
+        display: table-cell;
+        border: 1px solid black;
+        text-align: center;
+    }
+    img {
+        width: 13em;
+        display: block;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="sidebar-container">
+            <div class="sidebar-header">
+                <h1>Тень Повелителя Демонов</h1>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="index.html">Наследия</a></li>
+                    <li><a href="professions.html">Профессии</a></li>
+                    <li><a href="equipment.html">Снаряжение</a></li>
+                    <li><a href="novice.html">Путь новичка</a></li>
+                    <li><a href="magic.html">Магия</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="ancesteries-container">
+            <h1 class="red">МАГИЯ</h1>
+            <p>
+                Магия делает невозможное возможным. Это хаос, который сопротивляется навязыванию порядка, потенциал,
+                заложенный во всех вещах. Магия наполняет мир, невидимая, неощутимая, ожидая приказов от тех, кто
+                обладает силой владеть ею. В этой главе описываются наиболее распространенные способы проявления магии в
+                мире.
+
+                В своей истинной форме магия дика и непредсказуема. Только когда им манипулирует существо с магическим
+                талантом, оно соответствует намерениям владельца и дает желаемый результат в виде заклинания.
+
+                У всех существ есть потенциал использовать магию, измеряемую в игре Магической Силой [Power]. Источник
+                магических
+                способностей варьируется от человека к человеку: древняя реликвия, врожденный талант, академическая
+                подготовка, вера в далекого бога или множество других возможностей.
+            </p>
+            <h2 class="red">БОГИ И МОНСТРЫ</h2>
+            <p>
+                Если боги и существуют, то в лучшем случае это бескорыстные сверхъестественные существа. Тем не менее,
+                люди, поклявшиеся служить богу или богам, могут черпать силу из веры. Когда они произносят заклинания,
+                они опираются на свою веру, чтобы овладеть магией и произвести желаемый эффект.
+
+                Другие сверхъестественные существа привлекают преданных слуг так же, как и божественные существа. У
+                Королевы фей Альвхейма, ужасной Темной Леди, Великого Дракона и, конечно же, Повелителя Демонов есть
+                последователи, которые падают ниц перед ними и благодаря своей преданности владеют магией во имя этих
+                существ, обладающих огромной силой.
+            </p>
+            <h2 class="red">МАГИЧЕСКОЕ НАСЛЕДИЕ</h2>
+            <p>
+                Некоторые люди обнаруживают в себе потенциал управления магией. Эта способность часто скрыта до тех пор,
+                пока не проявляется во время крайнего эмоционального стресса, такого как боль, утрата или ужас.
+            </p>
+            <h2 class="red">ОБЪЕКТЫ СИЛЫ</h2>
+            <p>
+                Некоторые предметы могут наделять магической силой тех, кто ими владеет. Среди прочего, предметом силы
+                может быть древняя книга, посох или жезл, хрустальный шар, детская игрушка, меч, извлеченный из камня,
+                или статуэтка, извлеченная из могилы. Их избранные владельцы получают силу и знания, необходимые для
+                произнесения заклинаний или дополнения существующих магических даров. Иногда предмет силы является
+                реликвией. В других случаях это просто источник Силы персонажа.
+            </p>
+            <h2 class="red">ОБРАЗОВАНИЕ</h2>
+            <p>
+                Многие люди, использующие магию, развивают свои техники посредством обучения и тренировок. Во времена
+                расцвета Империи магические академии обучали учеников во всех великих городах. Главным из них была
+                Тайная Башня, которая до сих пор парит в небе над старой имперской столицей Цекрас. В сельской местности
+                волшебники, ведьмы и другие берут учеников, чтобы передать новому поколению то, чему они научились сами.
+            </p>
+            <h1 class="red">МАГИЧЕСКИЕ ТРАДИЦИИ</h1>
+            <p>Все заклинания принадлежат <b>традициям</b>. Каждая традиция описывает категорию магических эффектов,
+                которые
+                имеют общие характеристики. Традиция Огня, например, включает в себя заклинания, которые создают,
+                манипулируют или иным образом взаимодействуют с огнем и теплом. Заклинания из традиции Жизни исцеляют
+                раненых и исцеляют страждущих.</p>
+            <h2 class="red">СВЯЗАННЫЕ АТТРИБУТЫ</h2>
+            <p>Традиции, описанные в этой книге, связаны либо с Разумом, либо с Волей. Вы используете атрибут, связанный
+                с традицией, когда делаете бросок вызова или бросок атаки как часть сотворения заклинания из традиции. В
+                таблице «Традиции по атрибутам» перечислены традиции, описанные в этой книге, и связанные с ними
+                атрибуты.</p>
+            <h2 class="red">ОТКРЫТИЕ ТРАДИЦИЙ</h2>
+            <p>Чтобы использовать заклинания, связанные с традицией, вы должны открыть эту традицию. Вы можете узнать
+                его из пыльного фолианта в затерянной библиотеке, пройти обучение у мастера-волшебника или получить его
+                от одного из эфемерных джиннов.
+
+                Если ваш путь позволяет вам открыть для себя магические традиции, его описание подскажет вам, когда вы
+                сможете это сделать. Открытие указывает на то, что вы изучили основные техники, необходимые для
+                произнесения заклинаний из традиции, представленной одним из заклинаний нулевого ранга.</p>
+            <h2 class="red">ТРАДИЦИИ ТЁМНОЙ МАГИИ</h2>
+            <p>Некоторые традиции раскрывают страшные секреты, известные как темная магия. Вы получаете 1 порчу каждый
+                раз, когда обнаруживаете традицию темной магии. Кроме того, каждый раз, когда вы изучаете заклинание из
+                традиции темной магии, бросьте d6. Если число меньше, чем общее количество выученных вами заклинаний
+                темной магии, вы получаете 1 порчу.
+                Однако каждое выученное заклинание темной магии дает 1 благо к броскам вызова, которые вы совершаете,
+                чтобы избежать безумия.</p>
+            <h1 class="red">ЗАКЛИНАНИЯ</h1>
+            <p></p>
+            <h3 class="red" style="text-align: center;">ТРАДИЦИИ ПО АТТРИБУТАМ</h3>
+            <div class="table">
+                <div class="thead">
+                    <div class="tr">
+                        <div class="th">Интеллект</div>
+                        <div class="th">Воля</div>
+                    </div>
+                </div>
+                <div class="tbody">
+                    <div class="tr">
+                        <div class="td">
+                            <img src="images/magic/magic-swirl.svg" alt="Аркана">
+                            Аркана [Arcana]
+                        </div>
+                        <div class="td">
+                            <img src="images/magic/tornado.svg" alt="Воздух">
+                            Воздух [Air]
+                        </div>
+                    </div>
+                    <div class="tr">
+                        <div class="td">
+                            <img src="images/magic/fast-arrow.svg" alt="Битва">
+                            Битва [Battle]
+                        </div>
+                        <div class="td">
+                            <img src="images/magic/mighty-force.svg" alt="Изменение">
+                            Изменение [Alteration]
+                        </div>
+                    </div>
+                    <div class="tr">
+                        <div class="td">
+                            <img src="images/magic/crafting.svg" alt="Сотворение">
+                            Сотворение [Conjuration]</div>
+                        <div class="td">
+                            <img src="images/magic/sun.svg" alt="Небесная">
+                            Небесная [Celestial]</div>
+                    </div>
+                    <div class="tr">
+                        <div class="td">
+                            <img src="images/magic/voodoo-doll.svg" alt="Проклятие">
+                            Проклятие [Curse]*</div>
+                        <div class="td">
+                            <img src="images/magic/radial-balance.svg" alt="Хаос">
+                            Хаос [Chaos]</div>
+                    </div>
+                    <div class="tr">
+                        <div class="td">
+                            <img src="images/magic/crystal-ball.svg" alt="Гадание">
+                            Гадание [Divination]</div>
+                        <div class="td">
+                            <img src="images/magic/mushroom-cloud.svg" alt="Разрушение">
+                            Разрушение [Destruction]</div>
+                    </div>
+                    <div class="tr">
+                        <div class="td">
+                            <img src="images/magic/smitten.svg" alt="Очарование">
+                            Очарование [Enchantment]</div>
+                        <div class="td">
+                            <img src="images/magic/rock.svg" alt="Земля">
+                            Земля [Earth]</div>
+                    </div>
+                    <div class="tr">
+                        <div class="td">
+                            <img src="images/magic/temptation.svg" alt="Запрещенная">
+                            Запрещенная [Forbidden]*</div>
+                        <div class="td">
+                            <img src="images/magic/flame.svg" alt="Огонь">
+                            Огонь [Fire]</div>
+                    </div>
+                    <div class="tr">
+                        <div class="td">
+                            <img src="images/magic/two-shadows.svg" alt="Иллюзия">
+                            Иллюзия [Illusion]</div>
+                        <div class="td">
+                            <img src="images/magic/health-potion.svg" alt="Жизнь">
+                            Жизнь [Life]</div>
+                    </div>
+                    <div class="tr">
+                        <div class="td">
+                            <img src="images/magic/raise-zombie.svg" alt="Некромантия">
+                            Некромантия [Necromancy]*</div>
+                        <div class="td">
+                            <img src="images/magic/falling-leaf.svg" alt="Природа">
+                            Природа [Nature]</div>
+                    </div>
+                    <div class="tr">
+                        <div class="td">
+                            <img src="images/magic/surrounded-shield.svg" alt="Защита">
+                            Защита [Protection]</div>
+                        <div class="td">
+                            <img src="images/magic/mammoth.svg" alt="Первобытная">
+                            Первобытная [Primal]</div>
+                    </div>
+                    <div class="tr">
+                        <div class="td">
+                            <img src="images/magic/rune-stone.svg" alt="Руническая">
+                            Руническая [Rune]</div>
+                        <div class="td">
+                            <img src="images/magic/g-clef.svg" alt="Песня">
+                            Песня [Song]</div>
+                    </div>
+                    <div class="tr">
+                        <div class="td">
+                            <img src="images/magic/shadow-follower.svg" alt="Тень">
+                            Тень [Shadow]</div>
+                        <div class="td">
+                            <img src="images/magic/lightning-storm.svg" alt="Буря">
+                            Буря [Storm]</div>
+                    </div>
+                    <div class="tr">
+                        <div class="td">
+                            <img src="images/magic/gears.svg" alt="Техномантия">
+                            Техномантия [Technomancy]</div>
+                        <div class="td">
+                            <img src="images/magic/holy-hand-grenade.svg" alt="Теургия">
+                            Теургия [Theurgy]</div>
+                    </div>
+                    <div class="tr">
+                        <div class="td">
+                            <img src="images/magic/teleport.svg" alt="Телепортация">
+                            Телепортация [Teleportation]</div>
+                        <div class="td">
+                            <img src="images/magic/transform.svg" alt="Трансформация">
+                            Трансформация [Transformation]</div>
+                    </div>
+                    <div class="tr">
+                        <div class="td">
+                            <img src="images/magic/duration.svg" alt="Время">
+                            Время [Time]</div>
+                        <div class="td">
+                            <img src="images/magic/drop.svg" alt="Вода">
+                            Вода [Water]</div>
+                    </div>
+                </div>
+            </div>
+</body>
+
+</html>
