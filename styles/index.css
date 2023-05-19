@@ -55,3 +55,21 @@ body {
 .sidebar-nav ul li a:hover {
     color: #ff9933;
 }
+.icon{
+    width: 20px;
+    margin-right: 5px;
+}
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
