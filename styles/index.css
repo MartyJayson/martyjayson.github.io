@@ -4,6 +4,32 @@ body {
     background-color: #1a1a1a;
     font-family: 'Roboto', sans-serif;
 }
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-height: 100%;
+  /* Adjust padding or margin of .content if needed */
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  /* Add any desired styling for the footer */
+}
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
 
 /* container for sidebar */
 .sidebar-container {
@@ -58,18 +84,4 @@ body {
 .icon{
     width: 20px;
     margin-right: 5px;
-}
-footer {
-    background-color: #000000;
-    color: #ffffff;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-}
-
-footer p {
-    margin: 0;
 }

@@ -2,18 +2,61 @@
 <html>
 
 <head>
-    <title>Путь новичка</title>
+    <title>Путь эксперта</title>
     <link rel="shortcut icon" href="daemon-skull.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/ancesteries.css">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
+<style>
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1000px;
+    }
+
+    .card-group {
+        margin-left: 5%;
+        margin-right: auto;
+    }
+
+    .card {
+        width: 180px;
+        height: 300px;
+        padding: 10px;
+    }
+
+    .group-name {
+        text-align: center;
+        color: white;
+        background-color: brown;
+        max-width: 1200px;
+    }
+
+    .faith-path {
+        background-color: rgb(215, 215, 3);
+    }
+
+    .magic-path {
+        background-color: blueviolet;
+    }
+
+    .trickery-path {
+        background-color: purple;
+    }
+
+    .war-path {
+        background-color: red;
+    }
+</style>
 
 <body>
     <div class="container">
         <div class="sidebar-container">
             <div class="sidebar-header">
-                <a href="index.html"><h1>Тень Повелителя Демонов</h1></a>
+                <a href="index.html">
+                    <h1>Тень Повелителя Демонов</h1>
+                </a>
             </div>
             <nav class="sidebar-nav">
                 <ul>
@@ -34,7 +77,132 @@
                 </ul>
             </nav>
         </div>
-        <p style="color: white;  margin: 20%;">Данный раздел еще не реализован</p>
+        <div class="card-group">
+            <h3 class="group-name">Пути Веры</h3>
+            <div class="card">
+                <a href="#">
+                    <img class="faith-path" src="images/expert/crucifix.svg" alt="Клерик">
+                    <h3>Клерик [Cleric]</h3>
+                    <p>Жрецы используют символы своей веры, чтобы отбросить и уничтожить врагов своих богов.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <img class="faith-path" src="images/expert/holy-oak.svg" alt="Друид">
+                    <h3>Друид [Druid]</h3>
+                    <p>Приверженцы Старой Веры, друиды открывают тайны своего тайного общества, чтобы защитить землю и
+                        ее жителей.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <img class="faith-path" src="images/expert/aura.svg" alt="Оракул">
+                    <h3>Оракул [Oracle]</h3>
+                    <p>Сверхъестественные существа входят в тела оракулов, чтобы наделить их силой, мудростью и
+                        подсказками о будущем.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <img class="faith-path" src="images/expert/black-knight-helm.svg" alt="Паладин">
+                    <h3>Паладин [Paladin]</h3>
+                    <p>Паладины используют свою веру, чтобы защитить невинных и победить тьму.</p>
+                </a>
+            </div>
+        </div>
+        <div class="card-group">
+            <h3 class="group-name">Пути Магии</h3>
+            <div class="card">
+                <a href="#">
+                    <img class="magic-path" src="images/expert/steampunk-goggles.svg" alt="Изобретатель">
+                    <h3>Изобретатель [Artificer]</h3>
+                    <p>Изобретатели создают магические безделушки и слуг.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <img class="magic-path" src="images/expert/thor-fist.svg" alt="Чародей">
+                    <h3>Чародей [Sorcerer]</h3>
+                    <p>Колдуны используют невероятное количество магической энергии с большим риском для себя.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <img class="magic-path" src="images/expert/witch-face.svg" alt="Ведьма">
+                    <h3>Ведьма [Witch]</h3>
+                    <p>Ведьмы владеют силой старой магии, которой давным-давно научились у Справедливого Народа.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <img class="magic-path" src="images/expert/wizard-staff.svg" alt="Волшебник">
+                    <h3>Волшебник [Wizard]</h3>
+                    <p>Академики магии, волшебники хранят знания в огромных фолиантах, называемых гримуарами.</p>
+                </a>
+            </div>
+        </div>
+        <div class="card-group">
+            <h3 class="group-name">Пути Хитрости</h3>
+            <div class="card">
+                <a href="#">
+                    <img class="trickery-path" src="images/expert/hooded-assassin.svg" alt="Ассасин">
+                    <h3>Ассасин [Assassin]</h3>
+                    <p>Ассасины изучают искусство убийства.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <img class="trickery-path" src="images/expert/binoculars.svg" alt="Разведчик">
+                    <h3>Разведчик [Scout]</h3>
+                    <p>Искусные в скрытности и наблюдении, разведчики собирают информацию для своих союзников.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <img class="trickery-path" src="images/expert/robber.svg" alt="Вор">
+                    <h3>Вор [Thief]</h3>
+                    <p>Воры развивают полезные навыки, помогающие им осуществлять свои преступные замыслы.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <img class="trickery-path" src="images/expert/evil-book.svg" alt="Чернокнижник">
+                    <h3>Чернокнижник [Warlock]</h3>
+                    <p>Похитители магии, чернокнижники учатся выхватывать заклинания из разума других заклинателей.</p>
+                </a>
+            </div>
+        </div>
+        <div class="card-group">
+            <h3 class="group-name">Пути Войны</h3>
+            <div class="card">
+                <a href="#">
+                    <img class="war-path" src="images/expert/enrage.svg" alt="Берсерк">
+                    <h3>Берсерк [Berserker]</h3>
+                    <p>В бою берсерки выплескивают свою ярость, чтобы стать дикими машинами для убийств.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <img class="war-path" src="images/expert/swordman.svg" alt="Боец">
+                    <h3>Боец [Fighter]</h3>
+                    <p>Бойцы тренируются, чтобы стать экспертами в определенном стиле боя.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <img class="war-path" src="images/expert/high-shot.svg" alt="Рейнджер">
+                    <h3>Рейнджер [Ranger]</h3>
+                    <p>Опытные охотники, рейнджеры знают, как найти, выследить и уничтожить свою добычу.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <img class="war-path" src="images/expert/pointy-sword.svg" alt="Заклинатель">
+                    <h3>Зачарователь [Spellbinder]</h3>
+                    <p>Зачарователи наполняют свое оружие магией, чтобы улучшить свои боевые способности.</p>
+                </a>
+            </div>
+        </div>
     </div>
 </body>
 <footer>
